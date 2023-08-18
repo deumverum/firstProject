@@ -1,0 +1,49 @@
+.section4_back{
+    background-image: url(../../img/backsection4.jpg);
+    background-size: cover;
+    width: 100%;
+}
+.section4_parent{
+    padding: 115px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section4_text{
+    margin-top: 30px;
+}
+.section4_h2{
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+}
+.section4_p{
+    margin-top: 28px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    color: black;
+}
+.section4_a{
+    margin-top: 28px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 21px 46px;
+    color: white;
+    background-color: #21BA5E;
+    border: 2px solid #21BA5E;
+    border-radius: 10em;
+    transition: .4s;
+}
+.section4_a:hover{
+    background-color: rgb(36, 50, 56);
+    border-color: rgb(36, 50, 56); 
+}
+@media(max-width:999px){
+    .section4_h2{
+        font-size: 28px;
+        color: black;
+        font-weight: 700;
+    }
+}
